@@ -264,7 +264,7 @@ html {
 
 .contact-form textarea {
   max-width: 70rem;
-  min-width: 30rem;
+  min-width: 20rem;
   max-height: 15rem;
   min-height: 5.5rem;
 }
@@ -480,13 +480,36 @@ html {
     font-size: 1.2rem;
     padding: 0 1.2rem;
   }
+
   .section-3 {
     padding: 5rem 3rem;
+    height: 30vh;
+  }
+
+  .form-control {
+    width: 20rem;
+  }
+
+  .subscribe-btn {
+    width: 12rem;
+    font-size: 1.2rem;
+  }
+
+  .section-3-text {
+    font-size: 1.2rem;
+  }
+
+  .section-4 {
+    height: 50vh;
+  }
+
+  .contact-form {
+    width: 50rem;
   }
 
   .copyright {
     font-size: 1.2rem;
-    margin-left: 30%;
+    margin-left: 25%;
   }
 
   .footer-nav i {
@@ -495,7 +518,7 @@ html {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .nav-logo {
     width: 10rem;
     height: 10rem;
@@ -545,6 +568,46 @@ html {
   .footer-nav i {
     font-size: 1rem;
     padding: 0 0.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-logo {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .section-1-heading {
+    display: none;
+  }
+
+  .section-3 {
+    height: 30vh;
+  }
+
+  .form-control {
+    width: 20rem;
+    font-size: 1rem;
+  }
+
+  .subscribe-btn {
+    width: 10rem;
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    width: 30rem;
+  }
+
+  .footer {
+    position: relative;
+  }
+
+  .footer-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
   }
 }
 

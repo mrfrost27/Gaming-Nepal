@@ -1,3 +1,3 @@
 # Gaming-Nepal
 
-www.gamingnepal.netlify.app
+https://gamingnepal.netlify.app/
